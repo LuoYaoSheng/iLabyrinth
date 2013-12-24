@@ -27,6 +27,7 @@ VARIABLE = dynamic_cast<VARIABLETYPE>(ccbReader->readNodeGraphFromFile(FILENAME)
 #define TILE_SIZE 32.0f
 
 #define TOTAL_MAPS 39
+
 typedef enum {
 	WalkPathWalk	= 0,
 	WalkPathToTop   = 1 << 1,
