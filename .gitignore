@@ -31,3 +31,5 @@ DerivedData
 *.ipa
 .DS_Store
 .gitignore
+bin/
+gen/
