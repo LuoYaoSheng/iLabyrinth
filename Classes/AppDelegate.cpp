@@ -35,7 +35,9 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto pFileUtils = FileUtils::getInstance();
     std::vector<std::string> searchPaths;
     
-    if (director->getWinSize().width > 320)
+    auto screenSize = eglView->getFrameSize();
+    
+    if (screenSize.width > 320)
     {
         searchPaths.push_back("images/hd");
         
